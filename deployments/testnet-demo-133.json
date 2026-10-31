@@ -1,0 +1,77 @@
+{
+  "network": "HashKey Chain Testnet",
+  "chainId": 133,
+  "explorer": "https://testnet-explorer.hskchain.net",
+  "contracts": {
+    "MockAgentUSD": "0xE9d22B7AeD2dA5F93eA4407dCBfC52984cc64BEe",
+    "AgentEscrow": "0x07fCDDa0450390f30b2524847550Ff10C709BEFE"
+  },
+  "roles": {
+    "poster": "0xbd98F5e308ff0AfFe7714ca254c0b71229064a09",
+    "worker": "0x881702946Bf7C9e30389704068B1d0804621eA45",
+    "arbiter": "0x72C2fbDf44029FfdAbFF359858Ca013B784eDC43"
+  },
+  "jobs": {
+    "scene1": 1,
+    "scene2": 2
+  },
+  "txs": {
+    "fundArbiter": {
+      "hash": "0x7c10f766d9cb588da51a673e73784f8ce75e2ea295ff07e119061bf065fab45d",
+      "explorer": "https://testnet-explorer.hskchain.net/tx/0x7c10f766d9cb588da51a673e73784f8ce75e2ea295ff07e119061bf065fab45d"
+    },
+    "fundWorker": {
+      "hash": "0xe84679a065b05a81e8c4d2e357f67ea8fb8d05d07c60e6756e2317156126501c",
+      "explorer": "https://testnet-explorer.hskchain.net/tx/0xe84679a065b05a81e8c4d2e357f67ea8fb8d05d07c60e6756e2317156126501c"
+    },
+    "mint": {
+      "hash": "0xcad72fc2d34b65dcb32815eb58ed4ebf8be03458bff43a625e715cc9bbebe439",
+      "explorer": "https://testnet-explorer.hskchain.net/tx/0xcad72fc2d34b65dcb32815eb58ed4ebf8be03458bff43a625e715cc9bbebe439"
+    },
+    "s1Approve": {
+      "hash": "0x4c7977ee51ff83f5962254ecaaafe8afac864cf1c249c5000f8c574fc5af6ce1",
+      "explorer": "https://testnet-explorer.hskchain.net/tx/0x4c7977ee51ff83f5962254ecaaafe8afac864cf1c249c5000f8c574fc5af6ce1"
+    },
+    "s1CreateJob": {
+      "hash": "0xc5a9f3580b23a3b91da9a1412db752d69697ec1cff433978ebfe510cd4a42b28",
+      "explorer": "https://testnet-explorer.hskchain.net/tx/0xc5a9f3580b23a3b91da9a1412db752d69697ec1cff433978ebfe510cd4a42b28"
+    },
+    "s1Deliver": {
+      "hash": "0xa62411b486bd41b35c4dd80877606188b53f16ffb0389df99ffb6777eb91208d",
+      "explorer": "https://testnet-explorer.hskchain.net/tx/0xa62411b486bd41b35c4dd80877606188b53f16ffb0389df99ffb6777eb91208d"
+    },
+    "s1Settle": {
+      "hash": "0x9213d9338393cb8a42ef3d0a4fe3acef949f4defc97d028a25d2198709d22041",
+      "explorer": "https://testnet-explorer.hskchain.net/tx/0x9213d9338393cb8a42ef3d0a4fe3acef949f4defc97d028a25d2198709d22041"
+    },
+    "s2Approve": {
+      "hash": "0x2e72696d2173bfbc4f9ffebf934231fbfce27e3ebf3ce89026be2426aeebcf29",
+      "explorer": "https://testnet-explorer.hskchain.net/tx/0x2e72696d2173bfbc4f9ffebf934231fbfce27e3ebf3ce89026be2426aeebcf29"
+    },
+    "s2CreateJob": {
+      "hash": "0x43024531e7cf1baff539ec3177da4ed5a10890725d0d839c8eef7a325cd37d97",
+      "explorer": "https://testnet-explorer.hskchain.net/tx/0x43024531e7cf1baff539ec3177da4ed5a10890725d0d839c8eef7a325cd37d97"
+    },
+    "s2Deliver": {
+      "hash": "0x88e477d21807c381b2d82aebf06f39ac2735d2508b18ad5c8969e8be74fa4592",
+      "explorer": "https://testnet-explorer.hskchain.net/tx/0x88e477d21807c381b2d82aebf06f39ac2735d2508b18ad5c8969e8be74fa4592"
+    },
+    "s2Dispute": {
+      "hash": "0x439b59da4a82f92b41fbeab1b0305f5908425b5769be13648ed084d41c55761e",
+      "explorer": "https://testnet-explorer.hskchain.net/tx/0x439b59da4a82f92b41fbeab1b0305f5908425b5769be13648ed084d41c55761e"
+    },
+    "s2Resolve": {
+      "hash": "0xc9bfdfc3dadd20b54dec8f5768a2cf1664693c8a1f3ff216b4a3225bef7af03b",
+      "explorer": "https://testnet-explorer.hskchain.net/tx/0xc9bfdfc3dadd20b54dec8f5768a2cf1664693c8a1f3ff216b4a3225bef7af03b"
+    }
+  },
+  "finalBalances": {
+    "poster": "750.0 aUSD",
+    "worker": "250.0 aUSD"
+  },
+  "jobStates": {
+    "scene1": "Settled",
+    "scene2": "Refunded"
+  },
+  "ranAt": "2026-10-30T21:56:08.718Z"
+}

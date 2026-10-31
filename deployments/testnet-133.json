@@ -1,0 +1,20 @@
+{
+  "network": "HashKey Chain Testnet",
+  "chainId": 133,
+  "rpc": "https://testnet.hsk.xyz",
+  "explorer": "https://testnet-explorer.hskchain.net",
+  "deployer": "0xbd98F5e308ff0AfFe7714ca254c0b71229064a09",
+  "contracts": {
+    "MockAgentUSD": {
+      "address": "0xE9d22B7AeD2dA5F93eA4407dCBfC52984cc64BEe",
+      "tx": "0x4407ca394da6d47385ff8d8ef2dbe596fad35fde6134af196e297bc32138d37c",
+      "explorer": "https://testnet-explorer.hskchain.net/address/0xE9d22B7AeD2dA5F93eA4407dCBfC52984cc64BEe"
+    },
+    "AgentEscrow": {
+      "address": "0x07fCDDa0450390f30b2524847550Ff10C709BEFE",
+      "tx": "0x35ab8d253a090513e384c621c2ceb0bc6ff9a0ea1175b443188f3109bab4f468",
+      "explorer": "https://testnet-explorer.hskchain.net/address/0x07fCDDa0450390f30b2524847550Ff10C709BEFE"
+    }
+  },
+  "deployedAt": "2026-10-30T21:53:51.105Z"
+}
